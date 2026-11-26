@@ -163,7 +163,7 @@ def _control_rows(_, chat_id, playing, styles, autoplay_on, end_style):
                   #  text=padded(_["RICH_BTN_END_QUEUE"]),
                     #style=end_style,
                     #callback_data=f"ADMIN Stop|{chat_id}",
-                ),
+              #  ),
                 types.RichMessageButton(
                     text=padded(_["RICH_BTN_AUTOPLAY_ON"] if autoplay_on else _["RICH_BTN_AUTOPLAY_OFF"]),
                     style=toggle_style if autoplay_on else queue_style,
