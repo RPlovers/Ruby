@@ -19,7 +19,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "60"))
 
 LOGGER_ID = int(getenv("LOGGER_ID", "0"))
-OWNER_ID = int(getenv("OWNER_ID", "7574330905"))
+OWNER_ID = int(getenv("OWNER_ID", "8092368726"))
 
                  
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "")
@@ -29,7 +29,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", "")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/NoxxOP/ShrutixMusic",
+    "https://github.com/RPlovers/Ruby",
 )
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
@@ -40,12 +40,12 @@ GIT_TOKEN = getenv("GIT_TOKEN")
 
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL",
-    "https://t.me/ShrutiBots"
+    "https://t.me/Ora_Network"
 )
 
 SUPPORT_CHAT = getenv(
     "SUPPORT_CHAT",
-    "https://t.me/ShrutiSupportChat"
+    "https://t.me/+DPakVobcTRQ0ODI8"
 )
 
 AUTO_LEAVING_ASSISTANT = getenv(
@@ -85,18 +85,18 @@ confirmer = {}
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://graph.org/file/7557c0e0e0c1708f62d6a-6892ea881cc1555c83.jpg"
+    "https://i.imgur.com/wuGisS9.jpeg"
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://graph.org/file/f35df5dd605d76ff790b7-953db0f3e71a2e5a1a.jpg"
+    "https://i.imgur.com/wuGisS9.jpeg"
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
+STATS_IMG_URL = "https://i.imgur.com/wuGisS9.jpeg"
+TELEGRAM_AUDIO_URL = "https://i.imgur.com/wuGisS9.jpeg"
+TELEGRAM_VIDEO_URL = "https://i.imgur.com/wuGisS9.jpeg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
 YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
